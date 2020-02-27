@@ -6,6 +6,7 @@ class EmptyClass
 // primary 构造方法是类头的一部分（class header ）的一部分，它位于类名的后面，可以拥有若干参数
 // 如果primary构造方法没有任何注解或者是可见性关键字修饰，那么constructor关键字可省略
 //class MyClass constructor(username: String) {// 这个称为是主构造方法
+//
 
 class MyClass(username: String) {
     private val username: String = username.toUpperCase()

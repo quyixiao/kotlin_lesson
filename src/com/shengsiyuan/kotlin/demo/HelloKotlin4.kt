@@ -30,7 +30,7 @@ fun printMultiply(a: String, b: String) {
 
 
 fun printMultiply2(a: String, b: String) {
-    val a2Int = convert2Int(a)
+    val a2Int = convert2Int(a) //返回值的类型是Int?
     var b2Int = convert2Int(b)
     //println(a2Int * b2Int) 因为可能是空值，可能是空值
     if (null == a2Int) {

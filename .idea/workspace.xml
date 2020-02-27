@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4945678f-e629-45f5-88ec-72ad8080c56d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/shengsiyuan/kotlin/demo/HelloWorldDemo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/shengsiyuan/kotlin/demo/HelloKotlin.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin_lesson/META-INF/kotlin_lesson.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin_lesson/META-INF/kotlin_lesson.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin_lesson/com/shengsiyuan/kotlin/demo/HelloWorldDemoKt$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin_lesson/com/shengsiyuan/kotlin/demo/HelloWorldDemoKt$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin_lesson/com/shengsiyuan/kotlin/demo/HelloWorldDemoKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin_lesson/com/shengsiyuan/kotlin/demo/HelloWorldDemoKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/shengsiyuan/kotlin/demo/HelloWorldDemo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shengsiyuan/kotlin/demo/HelloWorldDemo.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -52,7 +54,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.com.shengsiyuan.kotlin.demo.HelloKotlinKt">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -68,6 +70,19 @@
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.shengsiyuan.kotlin.demo.HelloKotlinKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlin_lesson" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.shengsiyuan.kotlin.demo.HelloKotlinKt" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,6 +120,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.com.shengsiyuan.kotlin.demo.HelloKotlinKt" />
         <item itemvalue="Kotlin.com.shengsiyuan.kotlin.demo.HelloWorldDemoKt" />
       </list>
     </recent_temporary>
@@ -133,7 +149,9 @@
       <updated>1582730986114</updated>
       <workItem from="1582730987579" duration="1119000" />
       <workItem from="1582774108602" duration="1425000" />
-      <workItem from="1582775934080" duration="157000" />
+      <workItem from="1582775934080" duration="3118000" />
+      <workItem from="1582787649263" duration="35000" />
+      <workItem from="1582787702374" duration="232000" />
     </task>
     <servers />
   </component>
@@ -145,22 +163,30 @@
       <screen x="40" y="0" width="1400" height="900" />
     </state>
     <state x="340" y="117" key="#Project_Structure/40.0.1400.900@40.0.1400.900" timestamp="1582730995331" />
-    <state width="1613" height="263" key="GridCell.Tab.0.bottom" timestamp="1582776034521">
+    <state width="1613" height="263" key="GridCell.Tab.0.bottom" timestamp="1582787628991">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>
+    <state width="1613" height="263" key="GridCell.Tab.0.bottom/40.0.1400.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1582787628991" />
     <state width="1613" height="263" key="GridCell.Tab.0.bottom/41.0.1399.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1582776034521" />
-    <state width="1613" height="263" key="GridCell.Tab.0.center" timestamp="1582776034520">
+    <state width="1613" height="263" key="GridCell.Tab.0.bottom/43.0.1397.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1582776850788" />
+    <state width="1613" height="263" key="GridCell.Tab.0.center" timestamp="1582787628990">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>
+    <state width="1613" height="263" key="GridCell.Tab.0.center/40.0.1400.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1582787628990" />
     <state width="1613" height="263" key="GridCell.Tab.0.center/41.0.1399.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1582776034520" />
-    <state width="1613" height="263" key="GridCell.Tab.0.left" timestamp="1582776034520">
+    <state width="1613" height="263" key="GridCell.Tab.0.center/43.0.1397.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1582776850787" />
+    <state width="1613" height="263" key="GridCell.Tab.0.left" timestamp="1582787628990">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>
+    <state width="1613" height="263" key="GridCell.Tab.0.left/40.0.1400.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1582787628990" />
     <state width="1613" height="263" key="GridCell.Tab.0.left/41.0.1399.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1582776034520" />
-    <state width="1613" height="263" key="GridCell.Tab.0.right" timestamp="1582776034521">
+    <state width="1613" height="263" key="GridCell.Tab.0.left/43.0.1397.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1582776850786" />
+    <state width="1613" height="263" key="GridCell.Tab.0.right" timestamp="1582787628991">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>
+    <state width="1613" height="263" key="GridCell.Tab.0.right/40.0.1400.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1582787628991" />
     <state width="1613" height="263" key="GridCell.Tab.0.right/41.0.1399.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1582776034521" />
+    <state width="1613" height="263" key="GridCell.Tab.0.right/43.0.1397.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1582776850788" />
   </component>
   <component name="ideajad">
     <property name="annotate" value="false" />

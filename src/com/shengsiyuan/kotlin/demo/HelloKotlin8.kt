@@ -23,4 +23,9 @@ fun main(args: Array<String>) {
         println(i)
     }
 
+    println("==============================")
+    for (i in 10 downTo 2 step 4) {
+        println(i)
+    }
+
 }

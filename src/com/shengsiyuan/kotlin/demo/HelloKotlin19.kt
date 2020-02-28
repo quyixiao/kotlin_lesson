@@ -26,6 +26,14 @@ fun main(args: Array<String>) {
     //
 
     println(v)
+
+    println("*****************************************")
+    D.foo()
+    D.bar()
+
+    D.Companion.foo()
+    D.Companion.bar()
+
 }
 
 // companion object ,伴生对象，静态方法不属于一个实例，是属于类的
@@ -36,11 +44,15 @@ fun main(args: Array<String>) {
 // 如果从语法上来讲，伴生对象就是用来做静态方法和静态属性的功能的,在很多的情况下，
 // 注意：虽然伴生对象的成员看起来像是Java中的静态成员，但是在运行期，他们依旧是真实对象的实例成员
 // 在JVM上，可以将伴生对象的成员真正的生成类的静态方法与属性，这是通过@JVMStatic注解实现的
+// 伴生对象在编译生，会生成一个静态的内部类
 //
 
 class MyTest {
-    companion object MyObject  {//如果不提供伴生对象的名字，那么编译器会提供一个默认的名字Companion
+    companion object MyObject {
+        //如果不提供伴生对象的名字，那么编译器会提供一个默认的名字Companion
         var a: Int = 100
+
+        @JvmStatic // method这个会变成一个静态的方法
         fun method() {
             println("method invoked ")
         }
@@ -48,3 +60,15 @@ class MyTest {
 
 }
 
+class D {
+    companion object {
+        @JvmStatic //  public static final com.shengsiyuan.kotlin.demo.D$Companion Companion;
+        fun foo() {
+            println("foo")
+        }
+
+        fun bar() {
+            println("bar")
+        }
+    }
+}

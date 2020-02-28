@@ -20,13 +20,27 @@ fun TextensionTest.multiply(a: Int, b: Int) = a * b
  */
 
 open class AA
+
 class BB : AA()
+
 fun AA.a() = "a"
 fun BB.a() = "b"
 
 fun myPrintxxxx(aa: AA) {
     println(aa.a())
 }
+
+
+class CC {
+    fun foo() {
+        println("member")
+    }
+}
+
+fun CC.foo() {
+    println("member2")
+}
+
 
 fun main(args: Array<String>) {
     var extensionTest = TextensionTest()
@@ -42,4 +56,8 @@ fun main(args: Array<String>) {
     println("---------------------------------------")
     myPrintxxxx(a)
     myPrintxxxx(b)//打印结果是a
+    println("---------------------------------------")
+    CC().foo()//如果一个类有一个方法，进行扩展，方法名是一样的，那么原有定义的方法会覆盖现在的方法
 }
+
+

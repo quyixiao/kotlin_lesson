@@ -12,8 +12,11 @@ package com.shengsiyuan.kotlin.demo
  *      1.用val修饰
  *      2.只有get方法，没有set方法
  *  backing field : 支撑字段，
+ *  backing property ,支撑属性,将一个属性定义为私有的属性，再定义另一个属性，通过另一个属性的get,set方法来对这个私有的属性进行修改
+ *
+ *
  */
-class ThePerson(address: String, name: String) {
+class ThePerson(address: String, name: String, hight: Int = 30) {
     val age: Int
         get() = 20
     var address: String = address //如果没有定义，会默认的生成的 ,这个是初始化值，如果直接调用
@@ -33,6 +36,10 @@ class ThePerson(address: String, name: String) {
         set(value) {
             field = value
         }
+
+    private var hight: Int = 20
+        private get
+        private set
 
     // lombok 用相应的注解来实现
     // @Getter
@@ -56,6 +63,7 @@ fun main(args: Array<String>) {
     person.name = "lisi"
     println(person.name)
 
+    //println(person.hight)//Cannot access 'hight': it is private in 'ThePerson'
 
 }
 

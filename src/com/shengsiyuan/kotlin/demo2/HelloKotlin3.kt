@@ -1,7 +1,6 @@
 package com.shengsiyuan.kotlin.demo2
 
 // 泛型（generics） 变量类型参数化
-
 // 关于协变与逆变的概念及来源
 // List<Object> = new ArrayList()
 // List<String> list2 = list ;//编译失败
@@ -23,7 +22,7 @@ package com.shengsiyuan.kotlin.demo2
 // List<? super String>
 // 我们如果只从中读取数据，而不往里面写入内容，那么这样的对象叫做生产者，如果只向里面写入数据，而不从中读取数据，那这样的数据，叫做消费者
 // 生产者使用 ? extends E ;消费者使用? super E
-//
+// 
 class MyGeneric<T>(t: T) {
     var variable: T
 

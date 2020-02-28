@@ -25,9 +25,6 @@ package com.shengsiyuan.kotlin.demo2
  *      在主构造方法中有多少个参数，就会依次生成对应的componnent1,component2,component3
  *      这些方法返回的就是对应字段的值，componentN方法就是用来实现解构声明的
  *
- *
- *
- *
  */
 
 data class Person(val name: String, var age: Int, var address: String) {
@@ -35,7 +32,14 @@ data class Person(val name: String, var age: Int, var address: String) {
     // Conflicting overloads: public final fun copy(name: String, age: Int, address: String): Unit defined in com.shengsiyuan.kotlin.demo2.Person
     //    fun copy(name:String,age:Int,address: String){
     //}
+}
 
+
+/***
+ * 在Jvm 中，如果生成的类需要拥有无参的构造方法，那么就需要为所有的属性指定默认值
+ *
+ */
+data class Person2(val name: String = "", var age: Int = 30, var address: String = "") {
 
 }
 
@@ -58,6 +62,11 @@ fun main(args: Array<String>) {
     var (name, age, address) = person //将整体的分解成一个个变量
     println(name)
     println(address)
+
+    //如果需要生成一个无参的构造方法，那么要为所有值赋初始值，那么就会生成一个无参的构造方法，
+    var p2 = Person2()
+    println(p2)
+
 
 
 }

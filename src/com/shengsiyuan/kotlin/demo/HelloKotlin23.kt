@@ -37,10 +37,16 @@ class CC {
     }
 }
 
-fun CC.foo() {
+fun CC.foo(i: Int) {
     println("member2")
 }
 
+fun Any?.toString(): String {
+    if (null == this) {//如果这个类型本身是空的话，则直接返回一个"null"字符串
+        return "null"
+    }
+    return toString()
+}
 
 fun main(args: Array<String>) {
     var extensionTest = TextensionTest()
@@ -58,6 +64,8 @@ fun main(args: Array<String>) {
     myPrintxxxx(b)//打印结果是a
     println("---------------------------------------")
     CC().foo()//如果一个类有一个方法，进行扩展，方法名是一样的，那么原有定义的方法会覆盖现在的方法
+    CC().foo(2)
+
 }
 
 

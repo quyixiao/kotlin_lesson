@@ -59,7 +59,7 @@ fun main(args: Array<String>) {
     var myGeneric = MyGeneric("hellow") //借助于kotlin类的推断
     println(myGeneric.variable)
 
-    var myClass = MyClass<String,Number>("12383298",1)
+    var myClass = MyClass<String, Number>("12383298", 1.1)
 
     myTest(myClass)
 

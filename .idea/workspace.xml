@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4945678f-e629-45f5-88ec-72ad8080c56d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/shengsiyuan/kotlin/demo/HelloKotlin22.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/shengsiyuan/kotlin/demo/HelloKotlin21.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shengsiyuan/kotlin/demo/HelloKotlin21.kt" afterDir="false" />
     </list>
@@ -199,7 +200,7 @@
       <workItem from="1582854899865" duration="63000" />
       <workItem from="1582854980343" duration="1276000" />
       <workItem from="1582856263389" duration="1306000" />
-      <workItem from="1582857706295" duration="2563000" />
+      <workItem from="1582857706295" duration="3046000" />
     </task>
     <servers />
   </component>

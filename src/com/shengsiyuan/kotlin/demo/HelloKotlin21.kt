@@ -29,5 +29,4 @@ fun main() {
     var theClass = TheClass()
     theClass.init()
     theClass.myPrint()
-
 }

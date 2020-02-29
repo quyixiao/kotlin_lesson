@@ -4,6 +4,7 @@ package com.shengsiyuan.kotlin.demo2
 
 // 泛型函数
 // 语法表示形式上表现出哪些不同，kotlin 语言设计上表现出不一样的东西，对自己的技术点做出了升华
+// 嵌套类
 fun <T> getValue(item :T) :T {
     return item
 }

@@ -14,5 +14,4 @@ fun main(args: Array<String>) {
         println("finally invoke ")
     }
     println(result)
-
 }

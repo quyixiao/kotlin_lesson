@@ -12,9 +12,27 @@ fun main(args: Array<String>) {
     }
     println("********************************************8")
 
-    for (a in 4 downTo  1 ){
-        println(a )
+    for (a in 4 downTo 1) {
+        println(a)
     }
+    println("----------------------------------")
+    for (a in 1..6 step 2) {
+        println(a)
+    }
+    println("---------------------------")
+    for (a in 6 downTo 1 step 2) {
+        println(a)
+    }
+    println("----------------------------")
+    for (a in 1 until 6) {
+        println(a)
+    }
+    // 异常处理机制
+
+
+
+
+
 
 
 

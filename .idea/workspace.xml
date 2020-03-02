@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4945678f-e629-45f5-88ec-72ad8080c56d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/shengsiyuan/kotlin/demo6/HelloKotlin1_filter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/shengsiyuan/kotlin/demo6/HelloKotlin2_no_name_func.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin_lesson/META-INF/kotlin_lesson.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin_lesson/META-INF/kotlin_lesson.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/shengsiyuan/kotlin/demo5/HelloKotlin8_filter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shengsiyuan/kotlin/demo5/HelloKotlin8_filter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/shengsiyuan/kotlin/demo6/HelloKotlin1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shengsiyuan/kotlin/demo6/HelloKotlin3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/shengsiyuan/kotlin/demo6/HelloKotlin3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shengsiyuan/kotlin/demo6/HelloKotlin3.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +202,7 @@
       <workItem from="1582857706295" duration="20645000" />
       <workItem from="1582944493200" duration="22186000" />
       <workItem from="1583029299787" duration="16807000" />
-      <workItem from="1583110871072" duration="5592000" />
+      <workItem from="1583110871072" duration="6074000" />
     </task>
     <servers />
   </component>
@@ -235,7 +231,7 @@
       <screen x="49" y="0" width="1871" height="1080" />
     </state>
     <state x="1307" y="303" key="#com.shengsiyuan.kotlin.demo4.HelloKotlin6Kt/1920.180.1440.900/49.0.1871.1080@1920.180.1440.900" timestamp="1583035724277" />
-    <state width="1878" height="248" key="GridCell.Tab.0.bottom" timestamp="1583116574263">
+    <state width="1878" height="248" key="GridCell.Tab.0.bottom" timestamp="1583116619054">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>
     <state width="1398" height="173" key="GridCell.Tab.0.bottom/1920.180.1440.900/45.0.1875.1080@1920.180.1440.900" timestamp="1582984563020" />
@@ -256,8 +252,8 @@
     <state width="1878" height="320" key="GridCell.Tab.0.bottom/45.0.1395.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1582856481641" />
     <state width="1878" height="248" key="GridCell.Tab.0.bottom/47.0.1393.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583113985504" />
     <state width="1878" height="248" key="GridCell.Tab.0.bottom/48.0.1392.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583115249127" />
-    <state width="1878" height="248" key="GridCell.Tab.0.bottom/50.0.1390.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583116574263" />
-    <state width="1878" height="248" key="GridCell.Tab.0.center" timestamp="1583116574262">
+    <state width="1878" height="248" key="GridCell.Tab.0.bottom/50.0.1390.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583116619054" />
+    <state width="1878" height="248" key="GridCell.Tab.0.center" timestamp="1583116619053">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>
     <state width="1398" height="173" key="GridCell.Tab.0.center/1920.180.1440.900/45.0.1875.1080@1920.180.1440.900" timestamp="1582984563019" />
@@ -278,8 +274,8 @@
     <state width="1878" height="320" key="GridCell.Tab.0.center/45.0.1395.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1582856481640" />
     <state width="1878" height="248" key="GridCell.Tab.0.center/47.0.1393.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583113985502" />
     <state width="1878" height="248" key="GridCell.Tab.0.center/48.0.1392.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583115249126" />
-    <state width="1878" height="248" key="GridCell.Tab.0.center/50.0.1390.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583116574262" />
-    <state width="1878" height="248" key="GridCell.Tab.0.left" timestamp="1583116574261">
+    <state width="1878" height="248" key="GridCell.Tab.0.center/50.0.1390.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583116619053" />
+    <state width="1878" height="248" key="GridCell.Tab.0.left" timestamp="1583116619052">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>
     <state width="1398" height="173" key="GridCell.Tab.0.left/1920.180.1440.900/45.0.1875.1080@1920.180.1440.900" timestamp="1582984563019" />
@@ -300,8 +296,8 @@
     <state width="1878" height="320" key="GridCell.Tab.0.left/45.0.1395.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1582856481639" />
     <state width="1878" height="248" key="GridCell.Tab.0.left/47.0.1393.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583113985500" />
     <state width="1878" height="248" key="GridCell.Tab.0.left/48.0.1392.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583115249125" />
-    <state width="1878" height="248" key="GridCell.Tab.0.left/50.0.1390.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583116574261" />
-    <state width="1878" height="248" key="GridCell.Tab.0.right" timestamp="1583116574262">
+    <state width="1878" height="248" key="GridCell.Tab.0.left/50.0.1390.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583116619052" />
+    <state width="1878" height="248" key="GridCell.Tab.0.right" timestamp="1583116619053">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>
     <state width="1398" height="173" key="GridCell.Tab.0.right/1920.180.1440.900/45.0.1875.1080@1920.180.1440.900" timestamp="1582984563020" />
@@ -322,7 +318,7 @@
     <state width="1878" height="320" key="GridCell.Tab.0.right/45.0.1395.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1582856481641" />
     <state width="1878" height="248" key="GridCell.Tab.0.right/47.0.1393.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583113985503" />
     <state width="1878" height="248" key="GridCell.Tab.0.right/48.0.1392.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583115249127" />
-    <state width="1878" height="248" key="GridCell.Tab.0.right/50.0.1390.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583116574262" />
+    <state width="1878" height="248" key="GridCell.Tab.0.right/50.0.1390.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583116619053" />
     <state width="1878" height="355" key="GridCell.Tab.1.bottom" timestamp="1582857702106">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>

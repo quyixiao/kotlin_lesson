@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4945678f-e629-45f5-88ec-72ad8080c56d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/shengsiyuan/kotlin/demo8/HelloKotlin1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/shengsiyuan/kotlin/demo8/HelloKotlin2.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/kotlin_lesson/META-INF/kotlin_lesson.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin_lesson/META-INF/kotlin_lesson.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/shengsiyuan/kotlin/demo7/HelloKotlin4_Range.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shengsiyuan/kotlin/demo7/HelloKotlin4_Range.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/shengsiyuan/kotlin/demo8/HelloKotlin1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shengsiyuan/kotlin/demo8/HelloKotlin1_exception.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +48,15 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/shengsiyuan/kotlin/demo8" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/shengsiyuan/kotlin/demo" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.com.shengsiyuan.kotlin.demo8.HelloKotlin1Kt">
+  <component name="RunManager" selected="Kotlin.com.shengsiyuan.kotlin.demo8.HelloKotlin2Kt">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -69,19 +72,6 @@
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.shengsiyuan.kotlin.demo7.HelloKotlin1_parse_contructKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlin_lesson" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.shengsiyuan.kotlin.demo7.HelloKotlin1_parse_contructKt" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -125,14 +115,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.shengsiyuan.kotlin.demo8.HelloKotlin1Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="com.shengsiyuan.kotlin.demo8.HelloKotlin1_exceptionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin_lesson" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.shengsiyuan.kotlin.demo8.HelloKotlin1Kt" />
+      <option name="MAIN_CLASS_NAME" value="com.shengsiyuan.kotlin.demo8.HelloKotlin1_exceptionKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.shengsiyuan.kotlin.demo8.HelloKotlin2Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlin_lesson" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.shengsiyuan.kotlin.demo8.HelloKotlin2Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -158,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.com.shengsiyuan.kotlin.demo8.HelloKotlin1Kt" />
+        <item itemvalue="Kotlin.com.shengsiyuan.kotlin.demo8.HelloKotlin2Kt" />
+        <item itemvalue="Kotlin.com.shengsiyuan.kotlin.demo8.HelloKotlin1_exceptionKt" />
         <item itemvalue="Kotlin.com.shengsiyuan.kotlin.demo7.HelloKotlin4_RangeKt" />
         <item itemvalue="Kotlin.com.shengsiyuan.kotlin.demo7.HelloKotlin3_myMapKt" />
         <item itemvalue="Kotlin.com.shengsiyuan.kotlin.demo7.HelloKotlin2_copyKt" />
-        <item itemvalue="Kotlin.com.shengsiyuan.kotlin.demo7.HelloKotlin1_parse_contructKt" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +209,7 @@
       <workItem from="1583029299787" duration="16807000" />
       <workItem from="1583110871072" duration="12702000" />
       <workItem from="1583129954830" duration="1644000" />
-      <workItem from="1583132287445" duration="785000" />
+      <workItem from="1583132287445" duration="1630000" />
     </task>
     <servers />
   </component>
@@ -235,7 +238,7 @@
       <screen x="49" y="0" width="1871" height="1080" />
     </state>
     <state x="1307" y="303" key="#com.shengsiyuan.kotlin.demo4.HelloKotlin6Kt/1920.180.1440.900/49.0.1871.1080@1920.180.1440.900" timestamp="1583035724277" />
-    <state width="1350" height="353" key="GridCell.Tab.0.bottom" timestamp="1583133208611">
+    <state width="1530" height="395" key="GridCell.Tab.0.bottom" timestamp="1583133848442">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>
     <state width="1398" height="173" key="GridCell.Tab.0.bottom/1920.180.1440.900/45.0.1875.1080@1920.180.1440.900" timestamp="1582984563020" />
@@ -250,14 +253,14 @@
     <state width="1878" height="191" key="GridCell.Tab.0.bottom/39.0.1401.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1582884331609" />
     <state width="1878" height="191" key="GridCell.Tab.0.bottom/40.0.1400.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1582882297275" />
     <state width="1350" height="353" key="GridCell.Tab.0.bottom/41.0.1399.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583133208611" />
-    <state width="1878" height="248" key="GridCell.Tab.0.bottom/43.0.1397.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583131969115" />
+    <state width="1530" height="395" key="GridCell.Tab.0.bottom/43.0.1397.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583133848442" />
     <state width="1631" height="253" key="GridCell.Tab.0.bottom/44.0.1396.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1582792523133" />
     <state width="1398" height="173" key="GridCell.Tab.0.bottom/44.0.1396.900@44.0.1396.900" timestamp="1582988835422" />
     <state width="1878" height="320" key="GridCell.Tab.0.bottom/45.0.1395.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1582856481641" />
     <state width="1878" height="248" key="GridCell.Tab.0.bottom/47.0.1393.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583113985504" />
     <state width="1878" height="248" key="GridCell.Tab.0.bottom/48.0.1392.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583119120858" />
     <state width="1878" height="248" key="GridCell.Tab.0.bottom/50.0.1390.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583116619054" />
-    <state width="1350" height="353" key="GridCell.Tab.0.center" timestamp="1583133208610">
+    <state width="1530" height="395" key="GridCell.Tab.0.center" timestamp="1583133848441">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>
     <state width="1398" height="173" key="GridCell.Tab.0.center/1920.180.1440.900/45.0.1875.1080@1920.180.1440.900" timestamp="1582984563019" />
@@ -272,14 +275,14 @@
     <state width="1878" height="191" key="GridCell.Tab.0.center/39.0.1401.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1582884331608" />
     <state width="1878" height="191" key="GridCell.Tab.0.center/40.0.1400.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1582882297275" />
     <state width="1350" height="353" key="GridCell.Tab.0.center/41.0.1399.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583133208610" />
-    <state width="1878" height="248" key="GridCell.Tab.0.center/43.0.1397.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583131969114" />
+    <state width="1530" height="395" key="GridCell.Tab.0.center/43.0.1397.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583133848441" />
     <state width="1631" height="253" key="GridCell.Tab.0.center/44.0.1396.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1582792523132" />
     <state width="1398" height="173" key="GridCell.Tab.0.center/44.0.1396.900@44.0.1396.900" timestamp="1582988835422" />
     <state width="1878" height="320" key="GridCell.Tab.0.center/45.0.1395.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1582856481640" />
     <state width="1878" height="248" key="GridCell.Tab.0.center/47.0.1393.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583113985502" />
     <state width="1878" height="248" key="GridCell.Tab.0.center/48.0.1392.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583119120856" />
     <state width="1878" height="248" key="GridCell.Tab.0.center/50.0.1390.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583116619053" />
-    <state width="1350" height="353" key="GridCell.Tab.0.left" timestamp="1583133208609">
+    <state width="1530" height="395" key="GridCell.Tab.0.left" timestamp="1583133848441">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>
     <state width="1398" height="173" key="GridCell.Tab.0.left/1920.180.1440.900/45.0.1875.1080@1920.180.1440.900" timestamp="1582984563019" />
@@ -294,14 +297,14 @@
     <state width="1878" height="191" key="GridCell.Tab.0.left/39.0.1401.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1582884331607" />
     <state width="1878" height="191" key="GridCell.Tab.0.left/40.0.1400.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1582882297274" />
     <state width="1350" height="353" key="GridCell.Tab.0.left/41.0.1399.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583133208609" />
-    <state width="1878" height="248" key="GridCell.Tab.0.left/43.0.1397.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583131969114" />
+    <state width="1530" height="395" key="GridCell.Tab.0.left/43.0.1397.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583133848441" />
     <state width="1631" height="253" key="GridCell.Tab.0.left/44.0.1396.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1582792523131" />
     <state width="1398" height="173" key="GridCell.Tab.0.left/44.0.1396.900@44.0.1396.900" timestamp="1582988835422" />
     <state width="1878" height="320" key="GridCell.Tab.0.left/45.0.1395.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1582856481639" />
     <state width="1878" height="248" key="GridCell.Tab.0.left/47.0.1393.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583113985500" />
     <state width="1878" height="248" key="GridCell.Tab.0.left/48.0.1392.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583119120856" />
     <state width="1878" height="248" key="GridCell.Tab.0.left/50.0.1390.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583116619052" />
-    <state width="1350" height="353" key="GridCell.Tab.0.right" timestamp="1583133208611">
+    <state width="1530" height="395" key="GridCell.Tab.0.right" timestamp="1583133848442">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>
     <state width="1398" height="173" key="GridCell.Tab.0.right/1920.180.1440.900/45.0.1875.1080@1920.180.1440.900" timestamp="1582984563020" />
@@ -316,7 +319,7 @@
     <state width="1878" height="191" key="GridCell.Tab.0.right/39.0.1401.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1582884331609" />
     <state width="1878" height="191" key="GridCell.Tab.0.right/40.0.1400.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1582882297275" />
     <state width="1350" height="353" key="GridCell.Tab.0.right/41.0.1399.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583133208611" />
-    <state width="1878" height="248" key="GridCell.Tab.0.right/43.0.1397.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583131969115" />
+    <state width="1530" height="395" key="GridCell.Tab.0.right/43.0.1397.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583133848442" />
     <state width="1631" height="253" key="GridCell.Tab.0.right/44.0.1396.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1582792523133" />
     <state width="1398" height="173" key="GridCell.Tab.0.right/44.0.1396.900@44.0.1396.900" timestamp="1582988835422" />
     <state width="1878" height="320" key="GridCell.Tab.0.right/45.0.1395.900/0.-1080.1920.1080/-1920.-1080.1920.1080@0.-1080.1920.1080" timestamp="1582856481641" />

@@ -1,8 +1,6 @@
 package com.shengsiyuan.kotlin.demo5
 
-/***
- *
- */
+
 fun main(args: Array<String>) {
     val strings = arrayOf("hello", "world", "helloWorld", "welcome")
     strings.filter { it.contains("h") }.forEach { println(it) }

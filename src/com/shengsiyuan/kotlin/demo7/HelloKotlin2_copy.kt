@@ -2,7 +2,7 @@ package com.shengsiyuan.kotlin.demo7
 
 /***
  * Kotlin 严格区分可变集合与不可变集合
- *
+ * 要清楚一点的是，区分不可变
  */
 fun main(args: Array<String>) {
 

@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4945678f-e629-45f5-88ec-72ad8080c56d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/shengsiyuan/kotlin/demo11/HelloJava2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/shengsiyuan/kotlin/demo11/HelloKotlin2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/shengsiyuan/kotlin/demo11/HelloKotlin3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/shengsiyuan/kotlin/demo11/HelloKotlin4.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/shengsiyuan/kotlin/demo11/HelloJava4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/shengsiyuan/kotlin/demo11/HelloKotlin5.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/kotlin_lesson/META-INF/kotlin_lesson.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin_lesson/META-INF/kotlin_lesson.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin_lesson/com/shengsiyuan/kotlin/demo10/HelloKotlin4Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin_lesson/com/shengsiyuan/kotlin/demo10/HelloKotlin4Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin_lesson/com/shengsiyuan/kotlin/demo10/MyException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/shengsiyuan/kotlin/demo10/HelloKotlin4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shengsiyuan/kotlin/demo10/HelloKotlin4.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/shengsiyuan/kotlin/demo10/MyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shengsiyuan/kotlin/demo10/MyException111.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/shengsiyuan/kotlin/demo11/HelloKotlin1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shengsiyuan/kotlin/demo11/HelloKotlin1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/shengsiyuan/kotlin/demo11/HelloKotlin4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shengsiyuan/kotlin/demo11/HelloKotlin4.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +57,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HelloJava2">
+  <component name="RunManager" selected="Application.HelloJava4">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -72,6 +66,20 @@
     </configuration>
     <configuration name="HelloJava2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shengsiyuan.kotlin.demo11.HelloJava2" />
+      <module name="kotlin_lesson" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shengsiyuan.kotlin.demo11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloJava4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shengsiyuan.kotlin.demo11.HelloJava4" />
       <module name="kotlin_lesson" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -107,19 +115,6 @@
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.shengsiyuan.kotlin.demo10.HelloKotlin1Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlin_lesson" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.shengsiyuan.kotlin.demo10.HelloKotlin1Kt" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -170,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HelloJava4" />
         <item itemvalue="Application.HelloJava2" />
         <item itemvalue="Kotlin.com.shengsiyuan.kotlin.demo10.HelloKotlin4Kt" />
         <item itemvalue="Kotlin.com.shengsiyuan.kotlin.demo10.HelloKotlin2Kt" />
         <item itemvalue="Application.MyTest" />
-        <item itemvalue="Kotlin.com.shengsiyuan.kotlin.demo10.HelloKotlin1Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +216,7 @@
       <workItem from="1583132287445" duration="9286000" />
       <workItem from="1583143414270" duration="2273000" />
       <workItem from="1583156252101" duration="4827000" />
-      <workItem from="1583197812560" duration="700000" />
+      <workItem from="1583197812560" duration="1151000" />
     </task>
     <servers />
   </component>
